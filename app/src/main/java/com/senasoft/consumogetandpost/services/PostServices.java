@@ -10,7 +10,7 @@ import okhttp3.Request;
 import okhttp3.RequestBody;
 import okhttp3.Response;
 
-public class GetServices extends AsyncTask<String,Void,String> {
+public class PostServices extends AsyncTask<String,Void,String> {
     OkHttpClient client =  new OkHttpClient();
 
 
@@ -18,9 +18,9 @@ public class GetServices extends AsyncTask<String,Void,String> {
         void processFinish (String output);
     }
 
-    public GetServices.AsyncResponse delegate = null;
+    public PostServices.AsyncResponse delegate = null;
 
-    public GetServices(AsyncResponse delegate) {
+    public PostServices(AsyncResponse delegate) {
         this.delegate = delegate;
     }
 
