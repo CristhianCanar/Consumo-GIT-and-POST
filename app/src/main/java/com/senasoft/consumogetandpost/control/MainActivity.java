@@ -1,8 +1,10 @@
-package com.senasoft.consumogetandpost;
+package com.senasoft.consumogetandpost.control;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+
+import com.senasoft.consumogetandpost.R;
 
 public class MainActivity extends AppCompatActivity {
 
